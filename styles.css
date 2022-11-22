@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    background-color: rgb(188, 158, 49);
+    height: 60vh;
+    min-height: 600px;
+    background-image: url("https://images.unsplash.com/photo-1606735584704-3119d85a48bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+.menu{
+    display: flex;
+    font-size: 50px;
+    color: rgb(205, 17, 17);
+    align-items: center;
+}
+.menu span{
+    margin-right: 40px;
+    cursor: pointer;
+}
+.order{
+    background-color: rgba(41, 6, 36, 0.81);
+    color:bisque;
+    padding: 4px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.order:hover{
+    background-color: rgb(245, 144, 12);
+}
+.section1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.section1{
+    display: flex;
+    height: 450px;
+    
+}
+.left p{
+    color: rgb(68, 22, 68);
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+.left h1{
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+.left img{
+    width: 10px;
+}
+.left .button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 10PX;
+    font-weight: 100;
+    color: rgb(199, 122, 22);
+
+    
+}
+.section1 .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    
+
+    
+}
+.section1 .text-container{
+    width: 70%;
+}
+
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.695);
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.footer-navigation{
+    color: rgb(68, 22, 68);
+    margin-top: 30px;
+    font-weight: bolder;
+}
+.footer .logo{
+    margin-top: 50px;
+    
+}
+.footer-navigation span{
+    padding: 12px;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.footer-navigation span:hover{
+    color: brown;
+}
+.footer .social-media{
+    margin-top: 40px;
+
+}
+.social-media img{
+    padding: 4px;
+}
+@media (max-width:575.98px){
+    .section1{
+        flex-direction: column;
+        height: auto;
+}
+.section1 .left{
+    padding-top: 20px;
+    padding-top: 20px;
+}
+.banner .header .logo {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+}
