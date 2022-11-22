@@ -11,22 +11,17 @@
     background-size: cover;
 }
 .header{
-    height: 70px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     align-items:center;
     padding-left: 20px;
     padding-left: 20px;
-}
-.menu{
-    display: flex;
-    font-size: 50px;
-    color: rgb(205, 17, 17);
-    align-items: center;
-}
-.menu span{
-    margin-right: 40px;
-    cursor: pointer;
+    font-size: xx-large;
+
+
+
+
 }
 .order{
     background-color: rgba(41, 6, 36, 0.81);
@@ -37,15 +32,15 @@
 }
 .order:hover{
     background-color: rgb(245, 144, 12);
-}
-.section1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+
+
 }
 .section1{
-    display: flex;
-    height: 450px;
+    padding-top: 50px;
+    display: flx;
+    height: 400px;
+    padding-left: 50px;
+    
     
 }
 .left p{
@@ -53,19 +48,22 @@
     line-height: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 16px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    justify-content: space-between ;
 }
 .left h1{
-    font-size: 30px;
-    margin-bottom: 16px;
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 .left img{
-    width: 10px;
+    width: 15px;
 }
 .left .button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 10PX;
+    font-size: 16PX;
     font-weight: 100;
     color: rgb(199, 122, 22);
 
@@ -75,7 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: antiquewhite;
+    background-color: white;
     
 
     
@@ -86,7 +84,7 @@
 
 
 .footer{
-    background-color: rgba(255, 255, 255, 0.695);
+    background-color: rgba(95, 115, 54, 0.695);
     display: flex;
     padding-bottom: 50px;
     flex-direction: column;
@@ -121,10 +119,7 @@
     .section1{
         flex-direction: column;
         height: auto;
-}
-.section1 .left{
-    padding-top: 20px;
-    padding-top: 20px;
+
 }
 .banner .header .logo {
     display: flex;
